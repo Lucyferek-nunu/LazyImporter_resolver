@@ -38,7 +38,7 @@ So the resolver:
    `mov` (within a small byte window). The opcode + FNV + locality combination
    makes HIGH-confidence hits essentially free of false positives.
 
-The FNV implementation in [`resolver/fnv.hpp`](resolver/fnv.hpp) mirrors
+The FNV implementation in [`resolver/fnv.hpp`](fnv.hpp) mirrors
 [`lazy_importer.hpp`](lazy_importer-master/include/lazy_importer.hpp) bit-for-bit.
 `LI_MODULE` hashes (module names like `kernel32.dll`) are recovered the same way.
 
