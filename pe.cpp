@@ -21,7 +21,7 @@ constexpr std::uint16_t OPT32     = 0x010B;
 constexpr std::uint16_t OPT64     = 0x020B;
 constexpr std::uint32_t SCN_EXEC  = 0x20000000;
 
-} // namespace
+}
 
 bool Section::executable() const
 {
