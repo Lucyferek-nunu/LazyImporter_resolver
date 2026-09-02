@@ -39,7 +39,7 @@ So the resolver:
    makes HIGH-confidence hits essentially free of false positives.
 
 The FNV implementation in [`resolver/fnv.hpp`](fnv.hpp) mirrors
-[`lazy_importer.hpp`](lazy_importer-master/include/lazy_importer.hpp) bit-for-bit.
+[`lazy_importer.hpp`](https://github.com/JustasMasiulis/lazy_importer/blob/master/include/lazy_importer.hpp) bit-for-bit.
 `LI_MODULE` hashes (module names like `kernel32.dll`) are recovered the same way.
 
 ## Usage
